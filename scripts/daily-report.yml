@@ -1,0 +1,63 @@
+name: Daily Market Report
+
+on:
+  schedule:
+    # 한국시간 오전 7:30 = UTC 전날 22:30 (일~목)
+    - cron: '30 22 * * 0-4'
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: '수동 실행 사유'
+        required: false
+        default: '수동 테스트'
+
+jobs:
+  update-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 데이터 수집
+        env:
+          STEEL_SHEET_URL: ${{ secrets.STEEL_SHEET_URL }}
+        run: python scripts/fetch_data.py
+
+      - name: HTML 렌더링
+        run: python scripts/render_template.py
+
+      - name: 결과 확인
+        run: |
+          ls -lh index.html data.json
+          python3 -c "
+          import json
+          d = json.load(open('data.json'))
+          sp = d.get('sp500',{})
+          btc = d.get('btc',{})
+          kospi = d.get('kospi',{})
+          print(f\"S&P500: {sp.get('price','?')} ({sp.get('chg_pct','?')}%)\")
+          print(f\"BTC:    {btc.get('price','?')} ({btc.get('chg_pct','?')}%)\")
+          print(f\"KOSPI:  {kospi.get('price','?')} ({kospi.get('chg_pct','?')}%)\")
+          "
+
+      - name: Git 커밋 & 푸시
+        run: |
+          git config --global user.name  'Market Machine Bot'
+          git config --global user.email 'bot@market-machine.com'
+          git add index.html data.json
+          git diff --staged --quiet && echo "변경 없음 스킵" || (
+            git commit -m "Daily Report $(date +'%Y.%m.%d %H:%M KST')"
+            git push
+          )
