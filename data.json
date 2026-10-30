@@ -1,44 +1,44 @@
 {
   "meta": {
-    "updated_at": "2026-10-29T10:53:14.784269+09:00",
-    "date_str": "2026.10.29",
-    "weekday": "THU"
+    "updated_at": "2026-10-30T11:03:34.217979+09:00",
+    "date_str": "2026.10.30",
+    "weekday": "FRI"
   },
   "sp500": {
     "price": NaN,
-    "prev": 7743.98,
+    "prev": 7720.3901,
     "chg": NaN,
     "chg_pct": NaN
   },
   "nasdaq": {
     "price": NaN,
-    "prev": 26549.8516,
+    "prev": 26184.7246,
     "chg": NaN,
     "chg_pct": NaN
   },
   "dow": {
     "price": NaN,
-    "prev": 52475.1016,
+    "prev": 52342.5586,
     "chg": NaN,
     "chg_pct": NaN
   },
   "kospi": {
-    "price": 5868.0698,
-    "prev": 6012.4399,
-    "chg": -144.3701,
-    "chg_pct": -2.4
+    "price": 5641.1602,
+    "prev": 5937.6602,
+    "chg": -296.5,
+    "chg_pct": -4.99
   },
   "kosdaq": {
-    "price": 745.26,
-    "prev": 771.28,
-    "chg": -26.02,
-    "chg_pct": -3.37
+    "price": 725.67,
+    "prev": 753.23,
+    "chg": -27.56,
+    "chg_pct": -3.66
   },
   "nikkei": {
-    "price": 64350.0391,
-    "prev": 63954.1914,
-    "chg": 395.8477,
-    "chg_pct": 0.62
+    "price": 62785.8203,
+    "prev": 64659.4688,
+    "chg": -1873.6484,
+    "chg_pct": -2.9
   },
   "topix": {
     "price": NaN,
@@ -48,282 +48,282 @@
   },
   "vix": {
     "price": NaN,
-    "prev": 16.91,
+    "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "usdkrw": {
-    "price": 1331.64,
-    "prev": 1326.8101,
-    "chg": 4.83,
-    "chg_pct": 0.36
+    "price": 1337.29,
+    "prev": 1340.34,
+    "chg": -3.0499,
+    "chg_pct": -0.23
   },
   "usdjpy": {
-    "price": 157.718,
-    "prev": 157.993,
-    "chg": -0.275,
-    "chg_pct": -0.17
+    "price": 157.473,
+    "prev": 157.833,
+    "chg": -0.36,
+    "chg_pct": -0.23
   },
   "eurusd": {
-    "price": 1.1151,
-    "prev": 1.113,
-    "chg": 0.0021,
-    "chg_pct": 0.19
+    "price": 1.1198,
+    "prev": 1.1156,
+    "chg": 0.0042,
+    "chg_pct": 0.38
   },
   "dxy": {
     "price": NaN,
-    "prev": 102.191,
+    "prev": 101.739,
     "chg": NaN,
     "chg_pct": NaN
   },
   "gold": {
     "price": NaN,
-    "prev": 4067.7,
+    "prev": 4010.8999,
     "chg": NaN,
     "chg_pct": NaN
   },
   "wti": {
     "price": NaN,
-    "prev": 102.17,
+    "prev": 104.77,
     "chg": NaN,
     "chg_pct": NaN
   },
   "brent": {
     "price": NaN,
-    "prev": 110.93,
+    "prev": 113.81,
     "chg": NaN,
     "chg_pct": NaN
   },
   "copper": {
     "price": NaN,
-    "prev": 6.6565,
+    "prev": 6.5585,
     "chg": NaN,
     "chg_pct": NaN
   },
   "natgas": {
     "price": NaN,
-    "prev": 3.031,
+    "prev": 2.902,
     "chg": NaN,
     "chg_pct": NaN
   },
   "aluminum": {
     "price": NaN,
-    "prev": 3183.0,
+    "prev": 3168.75,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us10y": {
     "price": NaN,
-    "prev": 5.045,
+    "prev": 4.989,
     "chg": NaN,
     "chg_pct": NaN
   },
   "kr_samsung": {
-    "price": 231000.0,
-    "prev": 242000.0,
-    "chg": -11000.0,
-    "chg_pct": -4.55
+    "price": 218250.0,
+    "prev": 232000.0,
+    "chg": -13750.0,
+    "chg_pct": -5.93
   },
   "kr_skhynix": {
-    "price": 1498000.0,
-    "prev": 1487000.0,
-    "chg": 11000.0,
-    "chg_pct": 0.74
+    "price": 1395000.0,
+    "prev": 1526000.0,
+    "chg": -131000.0,
+    "chg_pct": -8.58
   },
   "kr_hyundai": {
-    "price": 288000.0,
-    "prev": 296000.0,
+    "price": 284500.0,
+    "prev": 292500.0,
     "chg": -8000.0,
-    "chg_pct": -2.7
+    "chg_pct": -2.74
   },
   "kr_hanwha": {
-    "price": 743000.0,
-    "prev": 787000.0,
-    "chg": -44000.0,
-    "chg_pct": -5.59
+    "price": 679000.0,
+    "prev": 760000.0,
+    "chg": -81000.0,
+    "chg_pct": -10.66
   },
   "kr_lgenergy": {
-    "price": 353000.0,
-    "prev": 389500.0,
-    "chg": -36500.0,
-    "chg_pct": -9.37
+    "price": 359500.0,
+    "prev": 356000.0,
+    "chg": 3500.0,
+    "chg_pct": 0.98
   },
   "kr_kakao": {
-    "price": 29200.0,
-    "prev": 29800.0,
-    "chg": -600.0,
-    "chg_pct": -2.01
+    "price": 29250.0,
+    "prev": 29300.0,
+    "chg": -50.0,
+    "chg_pct": -0.17
   },
   "kr_naver": {
-    "price": 173500.0,
-    "prev": 178000.0,
-    "chg": -4500.0,
-    "chg_pct": -2.53
+    "price": 171500.0,
+    "prev": 174900.0,
+    "chg": -3400.0,
+    "chg_pct": -1.94
   },
   "kr_celltrion": {
-    "price": 190200.0,
-    "prev": 189800.0,
-    "chg": 400.0,
-    "chg_pct": 0.21
+    "price": 191100.0,
+    "prev": 189300.0,
+    "chg": 1800.0,
+    "chg_pct": 0.95
   },
   "kr_krafton": {
-    "price": 180100.0,
-    "prev": 183200.0,
-    "chg": -3100.0,
-    "chg_pct": -1.69
+    "price": 180900.0,
+    "prev": 181000.0,
+    "chg": -100.0,
+    "chg_pct": -0.06
   },
   "kr_lignexone": {
-    "price": 98800.0,
-    "prev": 102700.0,
-    "chg": -3900.0,
-    "chg_pct": -3.8
+    "price": 97500.0,
+    "prev": 100400.0,
+    "chg": -2900.0,
+    "chg_pct": -2.89
   },
   "kr_posco": {
-    "price": 273500.0,
-    "prev": 282000.0,
-    "chg": -8500.0,
-    "chg_pct": -3.01
+    "price": 273000.0,
+    "prev": 275500.0,
+    "chg": -2500.0,
+    "chg_pct": -0.91
   },
   "us_nvda": {
     "price": NaN,
-    "prev": 215.38,
+    "prev": 213.66,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_aapl": {
     "price": NaN,
-    "prev": 343.83,
+    "prev": 348.91,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_tsla": {
     "price": NaN,
-    "prev": 404.22,
+    "prev": 403.3,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_meta": {
     "price": NaN,
-    "prev": 612.49,
+    "prev": 624.52,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_msft": {
     "price": NaN,
-    "prev": 531.01,
+    "prev": 530.14,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_amzn": {
     "price": NaN,
-    "prev": 254.6,
+    "prev": 243.79,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_mstr": {
     "price": NaN,
-    "prev": 145.16,
+    "prev": 141.62,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_pltr": {
     "price": NaN,
-    "prev": 196.81,
+    "prev": 196.42,
     "chg": NaN,
     "chg_pct": NaN
   },
   "us_coin": {
     "price": NaN,
-    "prev": 162.32,
+    "prev": 160.59,
     "chg": NaN,
     "chg_pct": NaN
   },
   "jp_softbank": {
-    "price": 4706.0,
-    "prev": 4682.0,
-    "chg": 24.0,
-    "chg_pct": 0.51
+    "price": 4429.0,
+    "prev": 4765.0,
+    "chg": -336.0,
+    "chg_pct": -7.05
   },
   "jp_toyota": {
-    "price": 3081.0,
-    "prev": 3051.0,
-    "chg": 30.0,
-    "chg_pct": 0.98
+    "price": 3064.0,
+    "prev": 3077.0,
+    "chg": -13.0,
+    "chg_pct": -0.42
   },
   "jp_sony": {
-    "price": 3957.0,
-    "prev": 3957.0,
-    "chg": 0.0,
-    "chg_pct": 0.0
+    "price": 3982.0,
+    "prev": 3936.0,
+    "chg": 46.0,
+    "chg_pct": 1.17
   },
   "jp_keyence": {
-    "price": 78080.0,
-    "prev": 79190.0,
-    "chg": -1110.0,
-    "chg_pct": -1.4
+    "price": 76850.0,
+    "prev": 76360.0,
+    "chg": 490.0,
+    "chg_pct": 0.64
   },
   "jp_mufg": {
-    "price": 3438.0,
-    "prev": 3377.0,
-    "chg": 61.0,
-    "chg_pct": 1.81
+    "price": 3427.0,
+    "prev": 3464.0,
+    "chg": -37.0,
+    "chg_pct": -1.07
   },
   "jp_daikin": {
-    "price": 21115.0,
-    "prev": 21535.0,
-    "chg": -420.0,
-    "chg_pct": -1.95
+    "price": 21045.0,
+    "prev": 21140.0,
+    "chg": -95.0,
+    "chg_pct": -0.45
   },
   "btc": {
-    "price": 80045.2812,
+    "price": 76463.8203,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "eth": {
-    "price": 2315.77,
+    "price": 2185.2,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "bnb": {
-    "price": 746.0,
+    "price": 700.42,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "xrp": {
-    "price": 1.2992,
+    "price": 1.2074,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "sol": {
-    "price": 99.99,
+    "price": 93.47,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "ada": {
-    "price": 0.1992,
+    "price": 0.186,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "avax": {
-    "price": 8.738,
+    "price": 8.154,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "doge": {
-    "price": 0.0783,
+    "price": 0.0736,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
   },
   "dot": {
-    "price": 0.9847,
+    "price": 0.903,
     "prev": NaN,
     "chg": NaN,
     "chg_pct": NaN
@@ -335,49 +335,49 @@
     "chg_pct": NaN
   },
   "cg_btc": {
-    "price": 80154,
-    "chg_pct": -0.8149450156902988,
-    "mcap": 1611677605093.4512
+    "price": 76631,
+    "chg_pct": -4.268119389063669,
+    "mcap": 1539989876702.563
   },
   "cg_eth": {
-    "price": 2318.42,
-    "chg_pct": -1.3973567700496923,
-    "mcap": 283292930299.1903
+    "price": 2189.97,
+    "chg_pct": -5.378614461560589,
+    "mcap": 267686669839.05057
   },
   "cg_bnb": {
-    "price": 747.91,
-    "chg_pct": 0.45750376561055045,
-    "mcap": 98314319535.81918
+    "price": 701.41,
+    "chg_pct": -6.139553083052134,
+    "mcap": 92245362732.79234
   },
   "cg_xrp": {
-    "price": 1.3,
-    "chg_pct": -2.5046171889419337,
-    "mcap": 82426345148.45436
+    "price": 1.21,
+    "chg_pct": -7.090962596962101,
+    "mcap": 76552266385.15317
   },
   "cg_sol": {
-    "price": 100.11,
-    "chg_pct": -1.3500410719497853,
-    "mcap": 59077101149.85454
+    "price": 93.7,
+    "chg_pct": -6.247108027153148,
+    "mcap": 55353210594.2821
   },
   "cg_ada": {
-    "price": 0.199276,
-    "chg_pct": -3.483411463607923,
-    "mcap": 7481827245.717161
+    "price": 0.186668,
+    "chg_pct": -6.136058649028154,
+    "mcap": 7012520683.518926
   },
   "cg_doge": {
-    "price": 0.07842,
-    "chg_pct": -0.8148848071492807,
-    "mcap": 12267980242.700584
+    "price": 0.073827,
+    "chg_pct": -5.560405465002317,
+    "mcap": 11553197994.105381
   },
   "cg_avax": {
-    "price": 8.76,
-    "chg_pct": -2.6763502505951866,
-    "mcap": 3888784194.634366
+    "price": 8.18,
+    "chg_pct": -5.887527318383463,
+    "mcap": 3631669345.280578
   },
   "cg_dot": {
-    "price": 0.986522,
-    "chg_pct": -1.7043042268724016,
-    "mcap": 1686955911.6182885
+    "price": 0.90528,
+    "chg_pct": -7.633034997050804,
+    "mcap": 1547724792.361709
   },
   "cg_matic": {
     "price": 0.126156,
@@ -385,39 +385,39 @@
     "mcap": 0
   },
   "cg_sui": {
-    "price": 0.921591,
-    "chg_pct": -1.458283775640768,
-    "mcap": 3796753330.7344484
+    "price": 0.853231,
+    "chg_pct": -6.673429176583885,
+    "mcap": 3513041497.3815494
   },
   "cg_tao": {
-    "price": 251.0,
-    "chg_pct": -2.4782665243829904,
-    "mcap": 2925103853.9550047
+    "price": 228.52,
+    "chg_pct": -8.428430733610739,
+    "mcap": 2667179375.7645593
   },
   "cg_arb": {
-    "price": 0.167754,
-    "chg_pct": -0.6899827084879694,
-    "mcap": 1156457472.7686408
+    "price": 0.153134,
+    "chg_pct": -7.774276639240048,
+    "mcap": 1054149455.3462293
   },
   "cg_uni": {
-    "price": 7.09,
-    "chg_pct": -0.26584812663870977,
-    "mcap": 4427850305.0915165
+    "price": 6.54,
+    "chg_pct": -7.410060513238076,
+    "mcap": 4083314170.5965657
   },
   "cg_aave": {
-    "price": 131.24,
-    "chg_pct": -2.5783241045892353,
-    "mcap": 2025782941.879726
+    "price": 119.62,
+    "chg_pct": -8.142447706287104,
+    "mcap": 1846472796.7749388
   },
   "cg_global": {
-    "total_mcap_usd": 2711045288439.675,
-    "total_mcap_chg": -2.9178987638601006,
-    "btc_dominance": 59.470551431141104
+    "total_mcap_usd": 2591921679117.025,
+    "total_mcap_chg": -6.276506121336276,
+    "btc_dominance": 59.24699323982892
   },
   "fg_today": {
-    "score": 51,
-    "label_ko": "중립",
-    "label_en": "Neutral"
+    "score": 30,
+    "label_ko": "공포",
+    "label_en": "Fear"
   },
   "fg_yesterday": {
     "score": 51,
@@ -425,7 +425,7 @@
     "label_en": "Neutral"
   },
   "fg_last_week": {
-    "score": 50,
+    "score": 51,
     "label_ko": "중립",
     "label_en": "Neutral"
   },
